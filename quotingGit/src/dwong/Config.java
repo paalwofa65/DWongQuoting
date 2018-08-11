@@ -2,7 +2,9 @@ package dwong;
 
 import java.io.File;
 import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.io.PrintWriter;
 import java.util.Properties;
 
 import javax.swing.JFileChooser;
@@ -29,7 +31,7 @@ public class Config {
 	private void loadConfig() {
 		//File f = new File("/home/paul/workspace/dwong5/src/file/dwongConfig");
 		
-		File f = new File("/home/paul/git/quotingDWong/src/file/dwongConfig");
+		File f = new File("/home/paul/git/quotingGit/quotingGit/src/file/dwongConfig");
 		
 		/*
 		JFileChooser fc = new JFileChooser(f);
